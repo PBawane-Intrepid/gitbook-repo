@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The IntrepidCS API - Create your own software applications](README.md)
+* [The IntrepidCS API - Create your own software applications tested.](README.md)
 * [Basic Operation - IntrepidCS API](basic-operation-intrepidcs-api/README.md)
   * [Using the intrepidcs API in Visual Studio: 32 bit DLL and 64 bit OS - IntrepidCS API](basic-operation-intrepidcs-api/using-the-intrepidcs-api-in-visual-studio-32-bit-dll-and-64-bit-os-intrepidcs-api.md)
   * [Using the intrepidcs API in Visual Basic - intrepidcs API](basic-operation-intrepidcs-api/using-the-intrepidcs-api-in-visual-basic-intrepidcs-api.md)
