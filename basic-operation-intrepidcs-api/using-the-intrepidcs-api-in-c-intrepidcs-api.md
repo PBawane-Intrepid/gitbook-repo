@@ -1,4 +1,4 @@
-# Using the intrepidcs API in C# - intrepidcs API
+# Using the Intrepidcs API in C# - intrepidcs API
 
 To use the intrepidcs API in C# add the [`icsNeoClass.cs`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/0f20729ed67e93491ce3dc561c785937/icsNeoClass.zip) Class into the C# project (figure 1). Right click on the solution and select “Add Existing Item” from the “Add” menu. Then, call the methods as defined in the WIN32 API Functions and Types Section of this document.
 
