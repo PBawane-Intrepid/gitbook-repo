@@ -99,10 +99,4 @@
   * [Structures, Types, and Defines Overview - intrepidcs API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/README.md)
     * [Setting Structures Overview - intrepidcs API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/README.md)
       * [SFireSettings Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sfiresettings-structure.md)
-* [Quick Start](quick-start.md)
-
-## Reference
-
-* [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+      * [SFire2Settings Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sfire2settings-structure.md)
