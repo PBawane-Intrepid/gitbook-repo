@@ -114,3 +114,16 @@
         * [SWCAN\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/swcan\_settings-structure.md)
         * [CANFD\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/canfd\_settings-structure.md)
         * [LIN\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/lin\_settings-structure.md)
+        * [ISO9141\_KEYWORD2000\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/iso9141\_keyword2000\_settings-structure.md)
+        * [ISO9141\_KEYWORD2000\_\_INIT\_STEP Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/iso9141\_keyword2000\_\_init\_step-structure.md)
+        * [ETHERNET\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/ethernet\_settings-structure.md)
+        * [OP\_ETH\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/op\_eth\_settings-structure.md)
+        * [OP\_ETH\_GENERAL\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/op\_eth\_general\_settings-structure.md)
+        * [STextAPISettings Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/stextapisettings-structure.md)
+        * [SPluto\_CustomParams Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/spluto\_customparams-structure.md)
+        * [UART\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/uart\_settings-structure.md)
+      * [NeoDevice Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodevice-structure.md)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
