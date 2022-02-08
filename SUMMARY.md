@@ -128,6 +128,8 @@
       * [Message Structures - neoVI API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/message-structures-neovi-api.md)
       * [Status Bitfields - neoVI API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/status-bitfields-neovi-api.md)
       * [Using an array instead of a message structure - intrepidcs API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/using-an-array-instead-of-a-message-structure-intrepidcs-api.md)
+      * [Structure for GetRTC and SetRTC](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/structure-for-getrtc-and-setrtc.md)
+      * [stCM\_ISO157652\_TxMessage Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stcm\_iso157652\_txmessage-structure.md)
 
 ## Group 1
 
