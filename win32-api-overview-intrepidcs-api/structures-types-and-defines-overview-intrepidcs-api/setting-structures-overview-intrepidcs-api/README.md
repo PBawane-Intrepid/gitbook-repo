@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Setting Structures Overview - intrepidcs API
 
 | Setting Structure       | Use                             |
