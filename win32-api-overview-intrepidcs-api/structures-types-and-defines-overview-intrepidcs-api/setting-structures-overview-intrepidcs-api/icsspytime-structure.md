@@ -1,4 +1,6 @@
-# Structure for GetRTC and SetRTC
+# icsSpyTime Structure
+
+Structure for GetRTC and SetRTC
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
