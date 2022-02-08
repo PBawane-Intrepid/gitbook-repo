@@ -123,6 +123,11 @@
         * [SPluto\_CustomParams Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/spluto\_customparams-structure.md)
         * [UART\_SETTINGS Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/sub-setting-structures-overview-intrepidcs-api/uart\_settings-structure.md)
       * [NeoDevice Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodevice-structure.md)
+      * [NeoDeviceEx Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodeviceex-structure.md)
+      * [stAPIFirmwareInfo Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stapifirmwareinfo-structure.md)
+      * [Message Structures - neoVI API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/message-structures-neovi-api.md)
+      * [Status Bitfields - neoVI API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/status-bitfields-neovi-api.md)
+      * [Using an array instead of a message structure - intrepidcs API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/using-an-array-instead-of-a-message-structure-intrepidcs-api.md)
 
 ## Group 1
 
