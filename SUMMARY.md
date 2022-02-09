@@ -130,6 +130,17 @@
       * [Using an array instead of a message structure - intrepidcs API](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/using-an-array-instead-of-a-message-structure-intrepidcs-api.md)
       * [icsSpyTime Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/icsspytime-structure.md)
       * [stCM\_ISO157652\_TxMessage Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stcm\_iso157652\_txmessage-structure.md)
+      * [stCM\_ISO157652\_RxMessage Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stcm\_iso157652\_rxmessage-structure.md)
+      * [Valid parameter names for the SetDeviceParameter and GetDeviceParameter methods](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/valid-parameter-names-for-the-setdeviceparameter-and-getdeviceparameter-methods.md)
+      * [Intrepid API Data Types](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/intrepid-api-data-types.md)
+      * [PhyRegPktClauseMess\_t Structure](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/phyregpktclausemess\_t-structure.md)
+      * [neoVI Network ID List](win32-api-overview-intrepidcs-api/structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md)
+* [Development FAQ's](development-faqs/README.md)
+  * [How do I detect and handle disconnects?](development-faqs/how-do-i-detect-and-handle-disconnects.md)
+  * [How do I set parameters on a neoVI device?](development-faqs/how-do-i-set-parameters-on-a-neovi-device.md)
+  * [How do I open more than one channel on a single piece of hardware? - intrepidcs API](development-faqs/how-do-i-open-more-than-one-channel-on-a-single-piece-of-hardware-intrepidcs-api.md)
+  * [How do I communicate on LIN - intrepidcs API](development-faqs/how-do-i-communicate-on-lin-intrepidcs-api.md)
+  * [How do I send a Extended Frame or a High Voltage Wakeup or ISO9141/KW2K Init? - intrepidcs API](development-faqs/how-do-i-send-a-extended-frame-or-a-high-voltage-wakeup-or-iso9141-kw2k-init-intrepidcs-api.md)
 
 ## Group 1
 
