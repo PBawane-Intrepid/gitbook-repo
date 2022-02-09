@@ -141,7 +141,14 @@
   * [How do I open more than one channel on a single piece of hardware? - intrepidcs API](development-faqs/how-do-i-open-more-than-one-channel-on-a-single-piece-of-hardware-intrepidcs-api.md)
   * [How do I communicate on LIN - intrepidcs API](development-faqs/how-do-i-communicate-on-lin-intrepidcs-api.md)
   * [How do I send a Extended Frame or a High Voltage Wakeup or ISO9141/KW2K Init? - intrepidcs API](development-faqs/how-do-i-send-a-extended-frame-or-a-high-voltage-wakeup-or-iso9141-kw2k-init-intrepidcs-api.md)
+* [Unix-like Operating Systems - Support](unix-like-operating-systems-support.md)
+* [J2534 Support - intrepidcs API](j2534-support-intrepidcs-api.md)
+* [Vehicle Spy Text API](vehicle-spy-text-api/README.md)
+  * [ECU Object - Vehicle Spy Text API](vehicle-spy-text-api/ecu-object-vehicle-spy-text-api.md)
+  * [neoVI PRO UI - Vehicle Spy 3 Text API](vehicle-spy-text-api/neovi-pro-ui-vehicle-spy-3-text-api.md)
+  * [Labview Text API Interface to Vehicle Spy 3](vehicle-spy-text-api/labview-text-api-interface-to-vehicle-spy-3.md)
+* [Vehicle Spy VSB file Spec](vehicle-spy-vsb-file-spec.md)
 
-## Group 1
+## Contact Us
 
-* [Page 1](group-1/page-1.md)
+* [Contact Information - Intrepid Control Systems, Inc.](contact-us/contact-information-intrepid-control-systems-inc..md)
