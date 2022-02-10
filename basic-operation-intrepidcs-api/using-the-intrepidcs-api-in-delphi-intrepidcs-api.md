@@ -7,7 +7,7 @@
 
 ![Figure 1 - Add the Link to the “icsn40.pas”](../.gitbook/assets/DelphiAddTo.gif)
 
-3\. \*\*\*\* Your project manager will now show the import library icsn40.pas (Figure 2).
+3\. Your project manager will now show the import library icsn40.pas (Figure 2).
 
 ![Figure 2 - The import library “icsn40.pas” is loaded.](../.gitbook/assets/DelphiProperties.gif)
 
@@ -15,7 +15,7 @@
 
 ![Figure 3 - Adding to Interface Uses](../.gitbook/assets/DelphifrmneoVIDelphi.gif)
 
-5\. Finally, call the methods as defined in the [Basic Operation](https://cdn.intrepidcs.net/guides/neoVIDLL/Basic-operation.html#basic) document.
+5\. Finally, call the methods as defined in the [Basic Operation](./) document.
 
 ### Example
 

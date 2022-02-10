@@ -3,7 +3,7 @@
 ### To use neoVI in Visual C++:
 
 1. Start your new project and add the [`Dynamic link helper files`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/d313052951efba4e15421be3f8e35682/DynamicLinkHelpCP.zip) to your project.
-2. Add a #include “icsneo40DLLAPI.h” to your project
+2. Add a <mark style="color:blue;">`#include`</mark> “icsneo40DLLAPI.h” to your project
 
 ![Figure 1 - Link to the “icsnVC40.lib”](../.gitbook/assets/VCHelperAdd.jpg)
 
@@ -26,7 +26,7 @@
  UnloadDLLAPI(hDLL);
 ```
 
-4\. Finally, call the methods as defined in the [Basic Operation](https://cdn.intrepidcs.net/guides/neoVIDLL/Basic-operation.html#basic) document.
+4\. Finally, call the methods as defined in the [Basic Operation](./) document.
 
 A Visual C++ example (Figure 1) is included to show how the API all works together. The example files are included in the following file: [`VCNewneoVI.zip`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/e0d42789bd4fbf6614f586c9bbb721da/VCNewneoVI.zip)
 

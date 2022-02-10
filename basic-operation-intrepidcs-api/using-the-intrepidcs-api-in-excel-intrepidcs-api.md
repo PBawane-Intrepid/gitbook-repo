@@ -1,6 +1,6 @@
 # Using the intrepidcs API in Excel - intrepidcs API
 
-To use the intrepidcs API in Excel or other VBA supported application add the [`bas_neoVI.vb`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/eff7ce57dd442e09675a9d786b865bb4/bas\_neoVI.zip) module into your project (figure 1) by right clicking on the Project in the VBA Editor and selecting Insert and then Module. Open the bas\_neoVI.vb. Then, call the methods as defined in the [Basic Operation](https://cdn.intrepidcs.net/guides/neoVIDLL/Basic-operation.html#basic) document. The function calls for use in VBA are the same as the calls in Visual Basic 6.
+To use the intrepidcs API in Excel or other VBA supported application add the [`bas_neoVI.vb`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/eff7ce57dd442e09675a9d786b865bb4/bas\_neoVI.zip) module into your project (figure 1) by right clicking on the Project in the VBA Editor and selecting Insert and then Module. Open the bas\_neoVI.vb. Then, call the methods as defined in the [Basic Operation](./) document. The function calls for use in VBA are the same as the calls in Visual Basic 6.
 
 ![Figure 1 - Add Module Command From the VB.NET Menu.](../.gitbook/assets/ExcelddModule.jpg)
 

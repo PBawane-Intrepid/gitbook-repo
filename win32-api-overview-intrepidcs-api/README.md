@@ -16,17 +16,17 @@ coverY: 0
 
 **Message Functions**
 
-| Name                         | Description                                                                                                                |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| GetMessages                  | Reads messages from the neoVI or ValueCAN device.                                                                          |
-| TxMessages                   | Transmits messages to vehicle networks using a neoVI or ValueCAN device.                                                   |
-| TxMessagesEx                 | Transmits messages longer than 8 bytes to vehicle networks using a neoVI or ValueCAN device. Used with Ethernet and CAN FD |
-| WaitForRxMessagesWithTimeOut | Waits a specified amount of time in milliseconds for a received message                                                    |
-| GetTimeStampForMSG           | Calculates the timestamp for a message given the handle to the device and a Message Structure                              |
-| ISO15765EnableNetworks       | Enables ISO15765 for the selective CAN/CANFD network                                                                       |
-| ISO15765TxMessage            | Configures an outgoing ISO15765 transaction                                                                                |
-| ICS15765RxMessage            | Configures the hardware to listen for a ISO15765 transaction                                                               |
-| Transmitting Long Messages   | In formation on sending longer frames on ISO9171 and Keyword 2000 networks                                                 |
+| Name                                                                                                                                                                     | Description                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| [GetMessages](message-functions-overview-intrepidcs-api/getmessages-method-intrepidcs-api.md)                                                                            | Reads messages from the neoVI or ValueCAN device.                                                                          |
+| [TxMessages](message-functions-overview-intrepidcs-api/txmessages-method-intrepidcs-api.md)                                                                              | Transmits messages to vehicle networks using a neoVI or ValueCAN device.                                                   |
+| [TxMessagesEx](message-functions-overview-intrepidcs-api/txmessagesex-method-intrepidcs-api.md)                                                                          | Transmits messages longer than 8 bytes to vehicle networks using a neoVI or ValueCAN device. Used with Ethernet and CAN FD |
+| [WaitForRxMessagesWithTimeOut](message-functions-overview-intrepidcs-api/waitforrxmessageswithtimeout-method-intrepidcs-api.md)                                          | Waits a specified amount of time in milliseconds for a received message                                                    |
+| [GetTimeStampForMSG](message-functions-overview-intrepidcs-api/gettimestampformsg-method-intrepidcs-api.md)                                                              | Calculates the timestamp for a message given the handle to the device and a Message Structure                              |
+| [ISO15765EnableNetworks](message-functions-overview-intrepidcs-api/iso15765-message-functions-overview-intrepidcs-api/iso15765\_enablenetworks-method-intrepidcs-api.md) | Enables ISO15765 for the selective CAN/CANFD network                                                                       |
+| [ISO15765TxMessage](message-functions-overview-intrepidcs-api/iso15765-message-functions-overview-intrepidcs-api/iso15765\_transmitmessage-method-intrepidcs-api.md)     | Configures an outgoing ISO15765 transaction                                                                                |
+| [ICS15765RxMessage](message-functions-overview-intrepidcs-api/iso15765-message-functions-overview-intrepidcs-api/iso15765\_receivemessage-method-intrepidcs-api.md)      | Configures the hardware to listen for a ISO15765 transaction                                                               |
+| [Transmitting Long Messages](message-functions-overview-intrepidcs-api/transmitting-long-messages-intrepidcs-api.md)                                                     | In formation on sending longer frames on ISO9171 and Keyword 2000 networks                                                 |
 
 **Device Settings Functions**
 

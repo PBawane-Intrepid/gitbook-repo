@@ -13,7 +13,7 @@
 
 ![Figure 3 - The #include statement in the C module.](../.gitbook/assets/lwinclude.gif)
 
-4\. Finally, call the methods as defined in the [Basic Operation](https://cdn.intrepidcs.net/guides/neoVIDLL/Basic-operation.html#basic) document.
+4\. Finally, call the methods as defined in the [Basic Operation](./) document.
 
 ### Example
 
