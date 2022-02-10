@@ -30,32 +30,32 @@ coverY: 0
 
 **Device Settings Functions**
 
-| Name                         | Description                                                                 |
-| ---------------------------- | --------------------------------------------------------------------------- |
-| GetConfiguration             | Reads the configuration bytes for a neoVI Blue or ValueCAN device           |
-| SendConfiguration            | Sends configuration bytes to a neoVI Blue or ValueCAN device                |
-| GetFireSettings              | Gets device and network parameters for a neoVI Fire device                  |
-| SetFireSettings              | Sets device and network parameters for a neoVI Fire device                  |
-| GetFIRE2Settings             | Gets device and network parameters for a neoVI Fire 2 device                |
-| SetFIRE2Settings             | Sets device and network parameters for a neoVI Fire 2 device                |
-| GetVCAN3Settings             | Gets device and network parameters for a ValueCAN3 device                   |
-| SetVCAN3Settings             | Sets device and network parameters for a ValueCAN3 device                   |
-| GetVCAN412Settings           | Gets device and network parameters for a ValueCAN4-1 and ValueCAN4-2 device |
-| SetVCAN412Settings           | Sets device and network parameters for a ValueCAN4-1 and ValueCAN4-2 device |
-| GetVCANRFSettings            | Gets device and network parameters for a ValueCAN RF device                 |
-| SetVCANRFSettings            | Sets device and network parameters for a ValueCAN RF device                 |
-| GetRADGalaxySettings         | Gets device and network parameters for a RAD Galaxy device                  |
-| SetRADGalaxySettings         | Sets device and network parameters for a RAD Galaxy device                  |
-| SetBitRate                   | Set the baud or bit rate for a specific neoVI network                       |
-| GetHWFirmwareInfo            | Gets the firmware version of a neoVI device                                 |
-| GetDLLFirmwareInfo           | Gets the firmware version stored in the DLL API                             |
-| ForceFirmwareUpdate          | Forces the firmware to updated on a neoVI device                            |
-| GetDeviceParameters          | Gets individual parameters for a neoVI device                               |
-| SetDeviceParameters          | Sets individual parameters for a neoVI device                               |
-| SetReflashDisplayCallbacks   | Sets callback function pointers for flashing a neoVI                        |
-| ClearReflashDisplayCallbacks | Clears callback function pointers for flashing a neoVI                      |
-| GetRTC                       | Gets the current real-time clock value from a connect neoVI device          |
-| SetRTC                       | Sets the current real-time clock value in a connected neoVI device          |
+| Name                                                                                                                                                                           | Description                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| [GetConfiguration](device-settings-functions-overview-intrepidcs-api/getconfiguration-method-intrepidcs-api.md)                                                                | Reads the configuration bytes for a neoVI Blue or ValueCAN device           |
+| [SendConfiguration](device-settings-functions-overview-intrepidcs-api/sendconfiguration-method-intrepidcs-api.md)                                                              | Sends configuration bytes to a neoVI Blue or ValueCAN device                |
+| [GetFireSettings](device-settings-functions-overview-intrepidcs-api/neovi-fire-intrepidcs-api/getfiresettings-method-intrepidcs-api.md)                                        | Gets device and network parameters for a neoVI Fire device                  |
+| [SetFireSettings](device-settings-functions-overview-intrepidcs-api/neovi-fire-intrepidcs-api/setfiresettings-method-intrepidcs-api.md)                                        | Sets device and network parameters for a neoVI Fire device                  |
+| [GetFIRE2Settings](device-settings-functions-overview-intrepidcs-api/neovi-fire-2-intrepidcs-api/getfire2settings-method-intrepidcs-api.md)                                    | Gets device and network parameters for a neoVI Fire 2 device                |
+| [SetFIRE2Settings](device-settings-functions-overview-intrepidcs-api/neovi-fire-2-intrepidcs-api/setfire2settings-method-intrepidcs-api.md)                                    | Sets device and network parameters for a neoVI Fire 2 device                |
+| [GetVCAN3Settings](device-settings-functions-overview-intrepidcs-api/valuecan3-intrepidcs-api/getvcan3settings-method-intrepidcs-api.md)                                       | Gets device and network parameters for a ValueCAN3 device                   |
+| [SetVCAN3Settings](device-settings-functions-overview-intrepidcs-api/valuecan3-intrepidcs-api/setvcan3settings-method-intrepidcs-api.md)                                       | Sets device and network parameters for a ValueCAN3 device                   |
+| [GetVCAN412Settings](device-settings-functions-overview-intrepidcs-api/valuecan-4-1-and-4-2-intrepidcs-api/getvcan412settings-method-intrepidcs-api.md)                        | Gets device and network parameters for a ValueCAN4-1 and ValueCAN4-2 device |
+| [SetVCAN412Settings](device-settings-functions-overview-intrepidcs-api/valuecan-4-1-and-4-2-intrepidcs-api/setvcan412settings-method-intrepidcs-api.md)                        | Sets device and network parameters for a ValueCAN4-1 and ValueCAN4-2 device |
+| [GetVCANRFSettings](device-settings-functions-overview-intrepidcs-api/valuecan-rf-intrepidcs-api/getvcanrfsettings-method-intrepidcs-api.md)                                   | Gets device and network parameters for a ValueCAN RF device                 |
+| [SetVCANRFSettings](device-settings-functions-overview-intrepidcs-api/valuecan-rf-intrepidcs-api/setvcanrfsettings-method-intrepidcs-api.md)                                   | Sets device and network parameters for a ValueCAN RF device                 |
+| [GetRADGalaxySettings](device-settings-functions-overview-intrepidcs-api/rad-galaxy-intrepidcs-api/getradgalaxysettings-method-intrepidcs-api.md)                              | Gets device and network parameters for a RAD Galaxy device                  |
+| [SetRADGalaxySettings](device-settings-functions-overview-intrepidcs-api/rad-galaxy-intrepidcs-api/setradgalaxysettings-method-intrepidcs-api.md)                              | Sets device and network parameters for a RAD Galaxy device                  |
+| [SetBitRate](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/setbitrate-method-intrepidcs-api.md)                                     | Set the baud or bit rate for a specific neoVI network                       |
+| [GetHWFirmwareInfo](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/gethwfirmwareinfo-method-intrepidcs-api.md)                       | Gets the firmware version of a neoVI device                                 |
+| [GetDLLFirmwareInfo](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/getdllfirmwareinfo-method-intrepidcs-api.md)                     | Gets the firmware version stored in the DLL API                             |
+| [ForceFirmwareUpdate](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/forcefirmwareupdate-method-intrepidcs-api.md)                   | Forces the firmware to updated on a neoVI device                            |
+| [GetDeviceParameters](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/getdeviceparameters-method-intrepidcs-api.md)                   | Gets individual parameters for a neoVI device                               |
+| [SetDeviceParameters](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/setdeviceparameters-method-intrepidcs-api.md)                   | Sets individual parameters for a neoVI device                               |
+| [SetReflashDisplayCallbacks](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/setreflashdisplaycallbacks-method-intrepidcs-api.md)     | Sets callback function pointers for flashing a neoVI                        |
+| [ClearReflashDisplayCallbacks](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/clearreflashdisplaycallbacks-method-intrepidcs-api.md) | Clears callback function pointers for flashing a neoVI                      |
+| [GetRTC](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/getrtc-method-intrepidcs-api.md)                                             | Gets the current real-time clock value from a connect neoVI device          |
+| [SetRTC](device-settings-functions-overview-intrepidcs-api/general-device-settings-intrepidcs-api/setrtc-method-intrepidcs-api.md)                                             | Sets the current real-time clock value in a connected neoVI device          |
 
 **Error Functions**
 
