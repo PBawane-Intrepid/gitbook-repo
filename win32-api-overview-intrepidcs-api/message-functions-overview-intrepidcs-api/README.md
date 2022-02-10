@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/ics-contact.png
+coverY: 0
+---
+
 # Message Functions Overview - intrepidcs API
 
 | Name                                                                                  | Description                                                                                |
