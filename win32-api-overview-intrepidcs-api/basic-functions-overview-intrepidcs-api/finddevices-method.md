@@ -31,7 +31,7 @@ public static extern Int32 icsneoFindDevices(ref NeoDeviceEx pNeoDevice, ref Int
 **Parameters**
 
 _pNeoDeviceEx_\
-\[out] This is the address of the first element of an array of NeoDeviceEx structure. This array can be as big as 255 devices. You must specify the size of the pNeoDeviceEx array in the pNumDevices parameter. The number of devices found will be limited to the value of pNumberofDevices or 255, whichever is lower. Each returned NeoDevice structure will contain information for each device such as its type, device ‘handle’ and serial number.
+\[out] This is the address of the first element of an array of [NeoDeviceEx](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodeviceex-structure.md) structure. This array can be as big as 255 devices. You must specify the size of the pNeoDeviceEx array in the pNumDevices parameter. The number of devices found will be limited to the value of pNumberofDevices or 255, whichever is lower. Each returned NeoDevice structure will contain information for each device such as its type, device ‘handle’ and serial number.
 
 _pNumberOfDevices_\
 \[in/out] In: Specifies the size of the pNeoDevices array. Must be in the range 0 to 255.\

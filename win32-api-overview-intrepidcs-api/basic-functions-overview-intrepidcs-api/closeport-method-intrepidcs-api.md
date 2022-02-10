@@ -35,7 +35,7 @@ hObject
 
 pNumberOfErrors
 
-\[out] Specifies the number of errors in the neoVI DLL error queue. You can read out the errors by calling the GetErrorMessages method.
+\[out] Specifies the number of errors in the neoVI DLL error queue. You can read out the errors by calling the [GetErrorMessages](../error-functions-overview-intrepidcs-api/geterrormessages-method-intrepidcs-api.md) method.
 
 **Return Values**
 

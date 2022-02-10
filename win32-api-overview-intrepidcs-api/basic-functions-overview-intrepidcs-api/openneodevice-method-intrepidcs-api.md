@@ -31,15 +31,15 @@ Public Declare Function icsneoOpenNeoDevice Lib “icsneo40.dll” (ByRef pNeoDe
 
 pNeoDevice
 
-\[in] A valid NeoDevice structure filled with information about a specific neoVI device. For C++ a “void\*” can be used. For .NET, “IntPtr” is used. This must be obtained by calling FindNeoDevices.
+\[in] A valid [NeoDevice](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodevice-structure.md) structure filled with information about a specific neoVI device. For C++ a “void\*” can be used. For .NET, “IntPtr” is used. This must be obtained by calling [FindNeoDevices](../deprecated-functions-overview-intrepidcs-api/findneodevices-method-intrepidcs-api.md).
 
 hObject
 
-\[out] This parameter needs to be 32 bit in a 32 bit program and 64 bit in a 64 bit program. This will be set to the handle of the neoVI driver object that is created. It is needed as an input parameter to other API function calls. Every time you create a new neoVI object you must call ClosePort and FreeObject to avoid creating a memory and resource leak.
+\[out] This parameter needs to be 32 bit in a 32 bit program and 64 bit in a 64 bit program. This will be set to the handle of the neoVI driver object that is created. It is needed as an input parameter to other API function calls. Every time you create a new neoVI object you must call [ClosePort](closeport-method-intrepidcs-api.md) and [FreeObject](freeobject-method-intrepidcs-api.md) to avoid creating a memory and resource leak.
 
 bNetworkIDs
 
-\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. See NetworkIDList for a list of current network ID’s. You may also set this parameter to NULL (zero) and the default network ID’s will be used.
+\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. See [NetworkIDList](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md) for a list of current network ID’s. _ **You may also set this parameter to NULL (zero) and the default network ID’s will be used.**_
 
 bConfigRead
 
@@ -55,9 +55,9 @@ If the port has been opened successfully, the return value will be 1. Otherwise 
 
 **Remarks**
 
-To connect to more than one piece of hardware, multiple calls to OpenNeoDevice can be made. The key is to provide a different NeoDevice for each device you want to open. For other function calls, use the returned hObject to talk to that device.
+To connect to more than one piece of hardware, multiple calls to [OpenNeoDevice ](openneodevice-method-intrepidcs-api.md)can be made. The key is to provide a different [NeoDevice ](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neodevice-structure.md)for each device you want to open. For other function calls, use the returned hObject to talk to that device.
 
-Each successful call to OpenNeoDevice should be matched with a call to a ClosePort when you are finished accessing the hardware. FreeObject methods.
+Each successful call to [OpenNeoDevice](openneodevice-method-intrepidcs-api.md) should be matched with a call to a [ClosePort](closeport-method-intrepidcs-api.md) when you are finished accessing the hardware. [FreeObject](freeobject-method-intrepidcs-api.md) methods.
 
 ### Examples
 
