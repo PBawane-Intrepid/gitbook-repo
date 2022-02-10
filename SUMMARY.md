@@ -153,4 +153,4 @@
 
 ## Contact Us
 
-* [Contact Information - Intrepid Control Systems, Inc.](contact-us/contact-information-intrepid-control-systems-inc..md)
+* [Contact Information - Intrepid Control Systems, Inc](contact-us/contact-information-intrepid-control-systems-inc..md)
