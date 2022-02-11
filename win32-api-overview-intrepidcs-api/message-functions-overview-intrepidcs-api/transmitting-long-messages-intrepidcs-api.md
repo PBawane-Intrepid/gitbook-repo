@@ -4,7 +4,7 @@
 
 For ISO9141 and Keyword 2000 Networks, a long message transmission option is allowed. Long message transmission is necessary when the message length exceeds twelve bytes (including checksum if used).
 
-You can transmit a long message by calling the TxMessages method with modified arguments. First, you will pass an array of icsSpyMessage structures which contain the long message data. This data in the array must be set properly. Finally, you must set the lNumMessages argument to the number of structures.
+You can transmit a long message by calling the [TxMessages](txmessages-method-intrepidcs-api.md) method with modified arguments. First, you will pass an array of icsSpyMessage structures which contain the long message data. This data in the array must be set properly. Finally, you must set the lNumMessages argument to the number of structures.
 
 You must setup the long message data properly. For the first message, both the 3 byte Header and the 8 byte data section are filled in. For consecutive messages only the 8 byte data section is filled in.
 

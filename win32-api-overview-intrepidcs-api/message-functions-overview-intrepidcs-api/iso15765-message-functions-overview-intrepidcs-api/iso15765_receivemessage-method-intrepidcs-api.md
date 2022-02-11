@@ -30,11 +30,11 @@ hObject
 
 ulNetwork
 
-\[in] Specifies the network to transmit the message on. See NetworkID List for a list of valid Network ID values. Network support varies by neoVI device. NETID\_DEVICE transmits on to the neoVI Device Virtual Network (see users manual).
+\[in] Specifies the network to transmit the message on. See [NetworkID List](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md) for a list of valid Network ID values. Network support varies by neoVI device. NETID\_DEVICE transmits on to the neoVI Device Virtual Network (see users manual).
 
 stCM\_ISO157652\_RxMessage
 
-\[in] This is the address of the stCM\_ISO15765\_RxMessage structure. The structure contains the properties for the multi frame message transaction.
+\[in] This is the address of the [stCM\_ISO15765\_RxMessage](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stcm\_iso157652\_rxmessage-structure.md) structure. The structure contains the properties for the multi frame message transaction.
 
 **Return Values**
 
