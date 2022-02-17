@@ -26,7 +26,7 @@ Public Declare Function icsneoForceFirmwareUpdate Lib “icsneo40.dll” (ByVal 
 
 hObject
 
-\[in] Specifies the driver object created by OpenNeoDevice.
+\[in] Specifies the driver object created by [OpenNeoDevice](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md).
 
 **Return Values**
 

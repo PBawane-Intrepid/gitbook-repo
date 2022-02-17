@@ -24,11 +24,11 @@ Public Declare Function icsneoGetDLLFirmwareInfo Lib “icsneo40.dll” (ByVal h
 
 hObject
 
-\[in] Specifies the driver object created by OpenNeoDevice.
+\[in] Specifies the driver object created by [OpenNeoDevice](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md).
 
 pInfo
 
-\[out] Pointer to an stAPIFirmwareInfo structure.
+\[out] Pointer to an [stAPIFirmwareInfo](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stapifirmwareinfo-structure.md) structure.
 
 **Return Values**
 
@@ -36,7 +36,7 @@ Returns 1 if successful, 0 if an error occurred.
 
 **Remarks**
 
-This method returns the version information for the neoVI firmware stored within the neoVI DLL API. This is the version that will be written to the neoVI device by the ForceFirmwareUpdate method.
+This method returns the version information for the neoVI firmware stored within the neoVI DLL API. This is the version that will be written to the neoVI device by the [ForceFirmwareUpdate](forcefirmwareupdate-method-intrepidcs-api.md) method.
 
 ### Examples
 

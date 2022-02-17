@@ -26,11 +26,11 @@ Public Declare Function icsneoGetHWFirmwareInfo Lib “icsneo40.dll” (ByVal hO
 
 hObject
 
-\[in] Specifies the driver object created by OpenNeoDevice.
+\[in] Specifies the driver object created by [OpenNeoDevice](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md).
 
 pInfo
 
-\[out] Pointer to an stAPIFirmwareInfo structure.
+\[out] Pointer to an [stAPIFirmwareInfo](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/stapifirmwareinfo-structure.md) structure.
 
 **Return Values**
 

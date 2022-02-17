@@ -1,6 +1,6 @@
 # ValueCAN RF - intrepidcs API
 
-| Name              | Description                                                 |
-| ----------------- | ----------------------------------------------------------- |
-| GetVCANRFSettings | Gets device and network parameters for a ValueCAN RF device |
-| SetVCANRFSettings | Sets device and network parameters for a ValueCAN RF device |
+| Name                                                            | Description                                                 |
+| --------------------------------------------------------------- | ----------------------------------------------------------- |
+| [GetVCANRFSettings](getvcanrfsettings-method-intrepidcs-api.md) | Gets device and network parameters for a ValueCAN RF device |
+| [SetVCANRFSettings](setvcanrfsettings-method-intrepidcs-api.md) | Sets device and network parameters for a ValueCAN RF device |
