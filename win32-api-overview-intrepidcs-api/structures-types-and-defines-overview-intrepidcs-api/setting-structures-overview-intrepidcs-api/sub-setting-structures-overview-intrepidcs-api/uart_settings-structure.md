@@ -53,7 +53,7 @@ public struct UART_SETTINGS
 
 **Remarks**
 
-&#x20;**Structure Elements**
+**Structure Elements**
 
 | Item                       | Description                                                                                                                                                                                                                                         |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,5 +65,3 @@ public struct UART_SETTINGS
 | icscm\_uint8 flow\_control | Set to 0 for no flow control and 1 for simple CTS RTS                                                                                                                                                                                               |
 | icscm\_uint8 reserved      |                                                                                                                                                                                                                                                     |
 | icscm\_uint32 bOptions     | <p>Bitfield containing UART Options</p><table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Invert Tx</td><td>1</td></tr><tr><td>Invert Rx</td><td>2</td></tr><tr><td>Half Duplex</td><td>4</td></tr></tbody></table> |
-
-****
