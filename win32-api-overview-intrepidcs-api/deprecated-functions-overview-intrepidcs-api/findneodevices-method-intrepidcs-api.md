@@ -96,7 +96,7 @@ Out: Specifies the number of neo devices that were found. This can be in the ran
 
 **Remarks**
 
-The NeoDevice array elements that are returned with this function may be passed to OpenNeoDevice so that individual neoVI devices can be opened.
+The NeoDevice array elements that are returned with this function may be passed to [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) so that individual neoVI devices can be opened.
 
 ### Examples
 

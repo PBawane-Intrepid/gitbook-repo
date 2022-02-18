@@ -45,7 +45,7 @@ public static extern int icsneoGetErrorInfo(int iErrorNumber,
 **Parameters**
 
 _lErrorNumber_\
-\[in] This is the number of the error message returned from GetErrorMessages. A separate topic describes the possible values for error messages.
+\[in] This is the number of the error message returned from [GetErrorMessages](geterrormessages-method-intrepidcs-api.md). A separate topic describes the possible values for [error messages](error-messages-intrepidcs-api.md).
 
 _sErrorDescriptionShort_\
 \[out] This is short description of the error. This parameter should be sized to include up to 255 characters including the NULL terminator.
@@ -54,10 +54,10 @@ _sErrorDescriptionLong_\
 \[out] This is longer more detailed description of the error. This parameter should be sized to include up to 255 characters including the NULL terminator.\
 \
 _lMaxLengthShort_\
-\[in] This is the size in characters of the _sErrorDescriptionShort_ array that is being passed in. This value must be 255 or less.\
+\[in] This is the size in characters of the _<mark style="color:orange;">sErrorDescriptionShort</mark>_ array that is being passed in. This value must be 255 or less.\
 \
 _lMaxLengthLong_\
-\[in] This is the size in characters of the _sErrorDescriptionLong_ array that is being passed in. This value must be 255 or less.
+\[in] This is the size in characters of the _<mark style="color:orange;">sErrorDescriptionLong</mark>_ array that is being passed in. This value must be 255 or less.
 
 _lErrorSeverity_\
 \[out] This indicates the error severity. This is estimated severity for the application and doesn't have significant meaning. See Table 1 below for more information.

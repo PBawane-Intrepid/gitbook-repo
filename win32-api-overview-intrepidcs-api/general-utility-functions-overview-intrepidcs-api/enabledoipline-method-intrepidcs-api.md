@@ -26,7 +26,7 @@ Public Declare Function icsneoEnableDOIPLine Lib “icsneo40.dll” (ByVal hObje
 
 hObject
 
-\[in] Handle \[in] Which specifies the driver object created by OpenNeoDevice
+\[in] Handle \[in] Which specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md)
 
 bActivate \[in] Sets the state of the Ethernet Activation line.
 

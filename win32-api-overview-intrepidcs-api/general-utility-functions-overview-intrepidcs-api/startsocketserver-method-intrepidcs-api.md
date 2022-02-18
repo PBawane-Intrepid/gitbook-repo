@@ -26,7 +26,7 @@ Public Declare Function icsneoStartSockServer Lib “icsneo40.dll” (ByVal hObj
 
 hObject
 
-\[in] Handle which specifies the driver object created by OpenNeoDevice
+\[in] Handle which specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md)
 
 iPort
 
@@ -38,7 +38,7 @@ If the server was started successfully the return value will be non-zero.
 
 **Remarks**
 
-This method creates a TCP/IP server in the DLL. This server can be attached to by any TCP/IP clients using the RAW API or using the DLL by specifying TCP/IP with OpenNeoDevice. Only one server is allowed at a time.
+This method creates a TCP/IP server in the DLL. This server can be attached to by any TCP/IP clients using the RAW API or using the DLL by specifying TCP/IP with [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md). Only one server is allowed at a time.
 
 ### Examples
 

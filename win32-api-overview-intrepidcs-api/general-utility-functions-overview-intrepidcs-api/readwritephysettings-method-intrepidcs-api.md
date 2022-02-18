@@ -26,15 +26,15 @@ Public Declare Function icsneoReadWritePHYSettings Lib “icsneo40.dll” (ByVal
 
 hObject
 
-\[in] Specifies the driver object created by OpenNeoDevice.
+\[in] Specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md).
 
 PHYSettings
 
-\[out] This is the address of the first element of an array of PhyRegPkt\_T structures. This array will be loaded by the application software with entries to be read or written from/to the hardware.
+\[out] This is the address of the first element of an array of [PhyRegPkt\_T](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/phyregpktclausemess\_t-structure.md) structures. This array will be loaded by the application software with entries to be read or written from/to the hardware.
 
 iSize
 
-\[in] Specifies the size of the structure PhyRegPkt\_T used by the application. This is to make sure the structure used in the application and the DLL is same to avoid any buffer overrun.
+\[in] Specifies the size of the structure [PhyRegPkt\_T](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/phyregpktclausemess\_t-structure.md) used by the application. This is to make sure the structure used in the application and the DLL is same to avoid any buffer overrun.
 
 iNumEntries
 
@@ -42,7 +42,7 @@ iNumEntries
 
 **Return Values**
 
-Returns 1 if successful, 0 if an error occurred. GetLastAPIError must be called to obtain the specific error.
+Returns 1 if successful, 0 if an error occurred. [GetLastAPIError](../error-functions-overview-intrepidcs-api/getlastapierror-method-intrepidcs-api.md) must be called to obtain the specific error.
 
 **Remarks**
 

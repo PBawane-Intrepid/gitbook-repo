@@ -26,7 +26,7 @@ Public Declare Function icsneoStopSockServer Lib “icsneo40.dll” (ByVal hObje
 
 hObject
 
-\[in] Handle to the driver object created by OpenNeoDevice
+\[in] Handle to the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md)
 
 **Return Values**
 
@@ -34,7 +34,7 @@ If the server has been stopped successfully the return value will be 1. If the f
 
 **Remarks**
 
-This method should be called when the server created with StartSocketServer.
+This method should be called when the server created with [StartSocketServer](startsocketserver-method-intrepidcs-api.md).
 
 ### Examples
 

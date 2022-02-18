@@ -26,7 +26,7 @@ Public Declare Function icsneoValidateHObject Lib “icsneo40.dll” (ByVal hObj
 
 hObject
 
-\[in] Specifies the driver object created by OpenNeoDevice.
+\[in] Specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md).
 
 **Return Values**
 
@@ -34,7 +34,7 @@ hObject
 
 **Remarks**
 
-A driver object will be invalid if it was never initialized by OpenNeoDevice. Calling ClosePort will not invalidate a driver object; only FreeObject will do so.
+A driver object will be invalid if it was never initialized by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md). Calling [ClosePort ](../basic-functions-overview-intrepidcs-api/closeport-method-intrepidcs-api.md)will not invalidate a driver object; only [FreeObject](../basic-functions-overview-intrepidcs-api/freeobject-method-intrepidcs-api.md) will do so.
 
 ### Examples
 

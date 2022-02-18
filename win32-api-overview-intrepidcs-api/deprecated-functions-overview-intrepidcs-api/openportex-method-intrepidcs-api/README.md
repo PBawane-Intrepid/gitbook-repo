@@ -32,7 +32,7 @@ lPortNumber
 
 lPortType
 
-\[in] Specifies the port type of what the device is connected to. This parameter is used with lPortNumber described above. This parameter can be set to NEOVI\_COMMTYPE\_RS232 (0) for a RS232 Comm port, NEOVI\_COMMTYPE\_USB\_BULK (1) for a USB, or NEOVI\_COMMTYPE\_TCPIP (3) for a TCP/IP connection. More information on the different types of hardware and the connection it uses can be found in the OpenPortEx Hardware Type help topic.
+\[in] Specifies the port type of what the device is connected to. This parameter is used with lPortNumber described above. This parameter can be set to NEOVI\_COMMTYPE\_RS232 (0) for a RS232 Comm port, NEOVI\_COMMTYPE\_USB\_BULK (1) for a USB, or NEOVI\_COMMTYPE\_TCPIP (3) for a TCP/IP connection. More information on the different types of hardware and the connection it uses can be found in the [OpenPortEx Hardware Type](openportex-hardware-type-information-intrepidcs-api.md) help topic.
 
 lDriverType
 
@@ -54,13 +54,13 @@ bNetworkIDs
 
 \[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. The network IDs are specified in the following list: NETID\_DEVICE = 0, NETID\_HSCAN = 1, NETID\_MSCAN = 2, NETID\_SWCAN = 3, NETID\_LSFTCAN = 4, NETID\_FORDSCP = 5, NETID\_J1708 = 6, NETID\_AUX = 7, NETID\_JVPW = 8, NETID\_ISO = 9. _You may also set this parameter to NULL (zero) and the default network ID’s will be used._
 
-The neoVI DLL will use this array when it receives a network message. For example, when the DLL receives a message from HSCAN network it will set the NetworkID parameter of the message structure with the value bNetworkID(NETID\_HSCAN).
+The neoVI DLL will use this array when it receives a network message. For example, when the DLL receives a message from HSCAN network it will set the NetworkID parameter of the [message structure](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/message-structures-neovi-api.md) with the value bNetworkID(NETID\_HSCAN).
 
 hObject
 
 \[in, out] This is the handle of the neoVI driver object. If this handle is 0, the method will create a new neoVI driver object. This handle will be used in other neoVI API calls to read and transmit messages.
 
-Every time you create a new neoVI driver object you must call icsneoFreeObject (after ClosePort). If you do not you will create a memory leak.
+Every time you create a new neoVI driver object you must call [icsneoFreeObject](../../basic-functions-overview-intrepidcs-api/freeobject-method-intrepidcs-api.md) (after [ClosePort](../../basic-functions-overview-intrepidcs-api/closeport-method-intrepidcs-api.md)). If you do not you will create a memory leak.
 
 **Return Values**
 
@@ -68,7 +68,7 @@ If the port has been opened successfully and connection to neoVI is attained, th
 
 **Remarks**
 
-Each successful call to OpenPort should be matched with a call to ClosePort. The OpenPort call will reset the timestamp clock.
+Each successful call to OpenPort should be matched with a call to [ClosePort](../../basic-functions-overview-intrepidcs-api/closeport-method-intrepidcs-api.md). The OpenPort call will reset the timestamp clock.
 
 ### Examples
 
