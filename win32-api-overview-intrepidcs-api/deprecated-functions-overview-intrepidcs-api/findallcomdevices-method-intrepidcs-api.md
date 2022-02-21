@@ -1,6 +1,6 @@
 # FindAllCOMDevices Method - intrepidcs API
 
-This function is deprecated. Use FindNeoDevices instead.
+This function is deprecated. Use [FindNeoDevices](findneodevices-method-intrepidcs-api.md) instead.
 
 This method returns the number of COM (both serial and USB serial) hardware devices connected to the PC.
 

@@ -1,6 +1,6 @@
 # OpenPortEx Method - intrepidcs API
 
-_This function is deprecated. Use the OpenNeoDevice method instead._
+_This function is deprecated. Use the_ [_OpenNeoDevice_](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) _method instead._
 
 This function opens a connection to a neoVI device.
 
