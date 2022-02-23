@@ -92,22 +92,22 @@ public struct stAPIFirmwareInfo
 
 **Structure Elements**
 
-| Item                                 | Description                                                                                                                                                  |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| intiType                             | <p>Indicates the generation of hardware:<br>2 = 2nd generation. See 2nd Generation neoVI Devices<br>3 = 3rd generation. See 3rd Generation neoVI Devices</p> |
-| intiMainFirmDateDay                  | 1 - 31 firmware day                                                                                                                                          |
-| intiMainFirmDateMonth                | 1 - 12 firmware month                                                                                                                                        |
-| intiMainFirmDateYear                 | 4 digit year (i.e. 2008) firmware year                                                                                                                       |
-| intiMainFirmDateHour                 | 0 - 23 firmware hour                                                                                                                                         |
-| intiMainFirmDateMin                  | 0 - 59 firmware minutes                                                                                                                                      |
-| intiMainFirmDateSecond               | 0 - 59 firmware seconds                                                                                                                                      |
-| intiMainFirmChkSum                   | Firmware checksum                                                                                                                                            |
-| unsigned chariAppMajor               | Application major version (3rd generation neoVI only)                                                                                                        |
-| unsigned chariAppMinor               | Application minor version (3rd generation neoVI only)                                                                                                        |
-| unsigned chariManufactureDay         | 1 - 31 Manufacture day (3rd generation neoVI only)                                                                                                           |
-| unsigned chariManufactureMonth       | 1 - 12 Manufacture month (3rd generation neoVI only)                                                                                                         |
-| unsigned shortiManufactureYear       | 4 digit year (i.e. 2008) manufacture year (3rd generation neoVI only)                                                                                        |
-| unsigned chariBoardRevMajor          | Board revision major (3rd generation neoVI only)                                                                                                             |
-| unsigned chariBoardRevMinor          | Board revision minor (3rd generation neoVI only)                                                                                                             |
-| unsigned chariBootLoaderVersionMajor | Bootloader version major (3rd generation neoVI only)                                                                                                         |
-| unsigned chariBootLoaderVersionMinor | Bootloader version minor (3rd generation neoVI only)                                                                                                         |
+| Item                                                                   | Description                                                                                                                                                  |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <mark style="color:blue;">int</mark> iType                             | <p>Indicates the generation of hardware:<br>2 = 2nd generation. See 2nd Generation neoVI Devices<br>3 = 3rd generation. See 3rd Generation neoVI Devices</p> |
+| <mark style="color:blue;">int</mark> iMainFirmDateDay                  | 1 - 31 firmware day                                                                                                                                          |
+| <mark style="color:blue;">int</mark> iMainFirmDateMonth                | 1 - 12 firmware month                                                                                                                                        |
+| <mark style="color:blue;">int</mark> iMainFirmDateYear                 | 4 digit year (i.e. 2008) firmware year                                                                                                                       |
+| <mark style="color:blue;">int</mark> iMainFirmDateHour                 | 0 - 23 firmware hour                                                                                                                                         |
+| <mark style="color:blue;">int</mark> iMainFirmDateMin                  | 0 - 59 firmware minutes                                                                                                                                      |
+| <mark style="color:blue;">int</mark> iMainFirmDateSecond               | 0 - 59 firmware seconds                                                                                                                                      |
+| <mark style="color:blue;">int</mark> iMainFirmChkSum                   | Firmware checksum                                                                                                                                            |
+| <mark style="color:blue;">unsigned char</mark> iAppMajor               | Application major version (3rd generation neoVI only)                                                                                                        |
+| <mark style="color:blue;">unsigned char</mark> iAppMinor               | Application minor version (3rd generation neoVI only)                                                                                                        |
+| <mark style="color:blue;">unsigned char</mark> iManufactureDay         | 1 - 31 Manufacture day (3rd generation neoVI only)                                                                                                           |
+| <mark style="color:blue;">unsigned char</mark> iManufactureMonth       | 1 - 12 Manufacture month (3rd generation neoVI only)                                                                                                         |
+| <mark style="color:blue;">unsigned short</mark> iManufactureYear       | 4 digit year (i.e. 2008) manufacture year (3rd generation neoVI only)                                                                                        |
+| <mark style="color:blue;">unsigned char</mark> iBoardRevMajor          | Board revision major (3rd generation neoVI only)                                                                                                             |
+| <mark style="color:blue;">unsigned char</mark> iBoardRevMinor          | Board revision minor (3rd generation neoVI only)                                                                                                             |
+| <mark style="color:blue;">unsigned char</mark> iBootLoaderVersionMajor | Bootloader version major (3rd generation neoVI only)                                                                                                         |
+| <mark style="color:blue;">unsigned char</mark> iBootLoaderVersionMinor | Bootloader version minor (3rd generation neoVI only)                                                                                                         |

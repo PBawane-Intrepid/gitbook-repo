@@ -39,10 +39,10 @@ public struct ISO9141_KEYWORD2000__INIT_STEP
 
 **Remarks**
 
-&#x20;**Structure Elements**
+**Structure Elements**
 
-| Item                     | Description                                                |
-| ------------------------ | ---------------------------------------------------------- |
-| icscm\_uint16time\_500us | Number of 500µs Ticks for state to be set                  |
-| icscm\_uint16k           | <p>Sets the state of the K line<br>Low = 0<br>High = 1</p> |
-| icscm\_uint16l           | <p>Sets the State of the L line<br>Low = 0<br>High = 1</p> |
+| Item                                                       | Description                                                |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [icscm\_uint16](../intrepid-api-data-types.md) time\_500us | Number of 500µs Ticks for state to be set                  |
+| [icscm\_uint16](../intrepid-api-data-types.md) k           | <p>Sets the state of the K line<br>Low = 0<br>High = 1</p> |
+| [icscm\_uint16](../intrepid-api-data-types.md) l           | <p>Sets the State of the L line<br>Low = 0<br>High = 1</p> |

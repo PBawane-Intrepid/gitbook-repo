@@ -90,14 +90,14 @@ public struct ISO9141_KEYWORD2000_SETTINGS
 
 **Structure Elements**
 
-| Item                                           | Description                                                                   |
-| ---------------------------------------------- | ----------------------------------------------------------------------------- |
-| icscm\_uint32                                  | Baudrate Baudrate to use                                                      |
-| icscm\_uint16 spbrg                            | Not used, set to 0                                                            |
-| icscm\_uint16 brgh                             | Not used, set to 0                                                            |
-| ISO9141\_KW2000\_\_INIT\_STEP init\_steps\[16] | Init table configuration structure                                            |
-| icscm\_uint8 init\_step\_count                 | Number of steps configured in ISO9141\_KW2000\_\_INIT\_STEP for Init waveform |
-| icscm\_uint16 p2\_500us                        | Rx Inter Message Spacing in 500µs ticks                                       |
-| icscm\_uint16 p3\_500us                        | Tx InterMessage Spacing in 500µs ticks                                        |
-| icscm\_uint16 p4\_500us                        | Tx Inter Byte Spacing in 500µs ticks                                          |
-| icscm\_uint16 chksum\_enabled                  | Option to enable checksum calculation Enable = 1 Disable = 0                  |
+| Item                                                                                              | Description                                                                   |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [icscm\_uint32](../intrepid-api-data-types.md)                                                    | Baudrate Baudrate to use                                                      |
+| [icscm\_uint16](../intrepid-api-data-types.md) spbrg                                              | Not used, set to 0                                                            |
+| [icscm\_uint16](../intrepid-api-data-types.md) brgh                                               | Not used, set to 0                                                            |
+| [ISO9141\_KW2000\_\_INIT\_STEP](iso9141\_keyword2000\_\_init\_step-structure.md) init\_steps\[16] | Init table configuration structure                                            |
+| [icscm\_uint8](../intrepid-api-data-types.md) init\_step\_count                                   | Number of steps configured in ISO9141\_KW2000\_\_INIT\_STEP for Init waveform |
+| [icscm\_uint16](../intrepid-api-data-types.md) p2\_500us                                          | Rx Inter Message Spacing in 500µs ticks                                       |
+| [icscm\_uint16](../intrepid-api-data-types.md) p3\_500us                                          | Tx InterMessage Spacing in 500µs ticks                                        |
+| [icscm\_uint16](../intrepid-api-data-types.md) p4\_500us                                          | Tx Inter Byte Spacing in 500µs ticks                                          |
+| [icscm\_uint16](../intrepid-api-data-types.md) chksum\_enabled                                    | Option to enable checksum calculation Enable = 1 Disable = 0                  |

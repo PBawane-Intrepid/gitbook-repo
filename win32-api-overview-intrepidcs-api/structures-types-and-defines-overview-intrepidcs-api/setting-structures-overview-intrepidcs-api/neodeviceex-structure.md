@@ -1,6 +1,6 @@
 # NeoDeviceEx Structure
 
-A structure used by FindNeoDevicesEx and OpenNeoDeviceEx to locate and open neoVI devices.
+A structure used by [FindNeoDevicesEx](../../deprecated-functions-overview-intrepidcs-api/findneodevices-method-intrepidcs-api.md) and [OpenNeoDeviceEx](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) to locate and open neoVI devices.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
@@ -77,12 +77,12 @@ public struct NeoDeviceEx
 
 **Remarks**
 
-FindNeoDevicesEx. Then the structure is used by OpenNeoDeviceEx to make a physical connection to a neoVI (ECU) device.
+FindNeoDevicesEx. Then the structure is used by [OpenNeoDeviceEx](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) to make a physical connection to a neoVI (ECU) device.
 
-| Item                        | Description                                                                                     |
-| --------------------------- | ----------------------------------------------------------------------------------------------- |
-| neoDevice NeoDevice         | Structure that containing device information like Serial number, device type, and Device Handel |
-| unsigned long FirmwareMajor | Returns the Major firmware version of the device                                                |
-| unsigned long FirmwareMinor | Returns the Minor firmware version of the device                                                |
-| unsigned long Status        | <p>Tells the status of the device.</p><p>CoreMini Running = 1; Bootloader = 2;</p>              |
-| unsigned long Reserved      | Reserved for future use                                                                         |
+| Item                                          | Description                                                                                     |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| neoDevice [NeoDevice](neodevice-structure.md) | Structure that containing device information like Serial number, device type, and Device Handel |
+| unsigned long FirmwareMajor                   | Returns the Major firmware version of the device                                                |
+| unsigned long FirmwareMinor                   | Returns the Minor firmware version of the device                                                |
+| unsigned long Status                          | <p>Tells the status of the device.</p><p>CoreMini Running = 1; Bootloader = 2;</p>              |
+| unsigned long Reserved                        | Reserved for future use                                                                         |

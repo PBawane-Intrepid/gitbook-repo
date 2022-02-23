@@ -1,6 +1,6 @@
 # NeoDevice Structure
 
-A structure used by FindNeoDevices and OpenNeoDevice to locate and open neoVI devices.
+A structure used by [FindNeoDevices](../../deprecated-functions-overview-intrepidcs-api/findneodevices-method-intrepidcs-api.md) and [OpenNeoDevice](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) to locate and open neoVI devices.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
@@ -46,7 +46,7 @@ public struct NeoDevice
 
 **Remarks**
 
-Instances of this structure are initialized and set by calling FindNeoDevices. Then the structure is used by OpenNeoDevice to make a physical connection to a neoVI device.
+Instances of this structure are initialized and set by calling [FindNeoDevices](../../deprecated-functions-overview-intrepidcs-api/findneodevices-method-intrepidcs-api.md). Then the structure is used by [OpenNeoDevice](../../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) to make a physical connection to a neoVI device.
 
 | Item                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
