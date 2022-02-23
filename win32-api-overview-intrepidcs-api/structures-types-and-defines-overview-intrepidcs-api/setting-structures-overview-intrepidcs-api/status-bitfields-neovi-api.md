@@ -227,6 +227,8 @@ public enum eDATA_STATUS_BITFIELD_2
 
 **Remarks**
 
+![](../../../.gitbook/assets/2510Bitfield.png)
+
 The tables below describe the bitfields.
 
 **Table 1 - StatusBitfield Elements**
