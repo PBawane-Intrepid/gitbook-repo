@@ -1,6 +1,6 @@
 # stCM\_ISO157652\_TxMessage Structure
 
-This structure is used by icsneoISO15765\_TransmitMessage
+This structure is used by [icsneoISO15765\_TransmitMessage](../../message-functions-overview-intrepidcs-api/iso15765-message-functions-overview-intrepidcs-api/iso15765\_transmitmessage-method-intrepidcs-api.md)
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
@@ -38,7 +38,6 @@ typedef struct __declspec(align(2)) _stCM_ISO157652_TxMessage
             unsigned isBRSEnabled : 1;        };
     unsigned short flags;
 };
-
 ```
 {% endtab %}
 
@@ -124,14 +123,13 @@ public enum stCM_ISO157652_TxMessage_Flags : int
     iscanFD = 128,
     isBRSEnabled= 256,
 }
-
 ```
 {% endtab %}
 {% endtabs %}
 
 **Remarks**
 
-&#x20;**Structure Elements**
+**Structure Elements**
 
 | Item                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

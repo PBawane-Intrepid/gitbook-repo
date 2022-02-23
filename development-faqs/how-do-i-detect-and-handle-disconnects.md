@@ -5,8 +5,8 @@ If the neoVI is removed from the computer or stops responding, most API calls wi
 To recover from this condition follow these steps:
 
 * Plug the neoVI back in, or in the case of the neoVI not responding, remove and then plug back in.
-* Call the ClosePort method.
-* Call the OpenNeoDevice method using the same parameters are before.
+* Call the [ClosePort](../win32-api-overview-intrepidcs-api/basic-functions-overview-intrepidcs-api/closeport-method-intrepidcs-api.md) method.
+* Call the [OpenNeoDevice](../win32-api-overview-intrepidcs-api/basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md) method using the same parameters are before.
 
 The following API functions will generate the NEOVI\_ERROR\_DLL\_NEOVI\_NO\_RESPONSE error:
 

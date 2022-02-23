@@ -1,6 +1,6 @@
 # stCM\_ISO157652\_RxMessage Structure
 
-This structure is used by icsneoISO15765\_ReceiveMessage
+This structure is used by [icsneoISO15765\_ReceiveMessage](../../message-functions-overview-intrepidcs-api/iso15765-message-functions-overview-intrepidcs-api/iso15765\_receivemessage-method-intrepidcs-api.md)
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
