@@ -7,127 +7,143 @@ Structure defining the parameter in SRADGalaxySettings
 ```cpp
 typedef struct __declspec (align(2))
 {
-  OP_ETH_GENERAL_SETTINGS opEthGen;
-  OP_ETH_SETTINGS opEth1;
-  OP_ETH_SETTINGS opEth2;
-  OP_ETH_SETTINGS opEth3;
-  OP_ETH_SETTINGS opEth4;
-  OP_ETH_SETTINGS opEth5;
-  OP_ETH_SETTINGS opEth6;
-  OP_ETH_SETTINGS opEth7;
-  OP_ETH_SETTINGS opEth8;
-  OP_ETH_SETTINGS opEth9;
-  OP_ETH_SETTINGS opEth10;
-  OP_ETH_SETTINGS opEth11;
-  OP_ETH_SETTINGS opEth12;
-  CAN_SETTINGS can1;
-  CANFD_SETTINGS canfd1;
-  CAN_SETTINGS can2;
-  CANFD_SETTINGS canfd2;
-  CAN_SETTINGS can3;
-  CANFD_SETTINGS canfd3;
-  CAN_SETTINGS can4;
-  CANFD_SETTINGS canfd4;
-  CAN_SETTINGS can5;
-  CANFD_SETTINGS canfd5;
-  CAN_SETTINGS can6;
-  CANFD_SETTINGS canfd6;
-  CAN_SETTINGS can7;
-  CANFD_SETTINGS canfd7;
-  CAN_SETTINGS can8;
-  CANFD_SETTINGS canfd8;
-  SWCAN_SETTINGS swcan1;
-  unsigned short network_enables;
-  SWCAN_SETTINGS swcan2;
-  unsigned short network_enables_2;
-  LIN_SETTINGS lin1;
-  unsigned short misc_io_initial_ddr;
-  unsigned short misc_io_initial_latch;
-  unsigned short misc_io_report_period;
-  unsigned short misc_io_on_report_events;
-  unsigned short misc_io_analog_enable;
-  unsigned short ain_sample_period;
-  unsigned short ain_threshold;
-  unsigned int pwr_man_timeout;
-  unsigned short pwr_man_enable;
-  unsigned short network_enabled_on_boot;
-  unsigned short iso15765_separation_time_offset;
-  unsigned short iso_9141_kwp_enable_reserved;
-  ISO9141_KEYWORD2000_SETTINGS iso9141_kwp_settings_1;
-  unsigned short iso_parity_1;
-  unsigned short iso_msg_termination_1;
-  unsigned short idle_wakeup_network_enables_1;
-  unsigned short idle_wakeup_network_enables_2;
-  unsigned short network_enables_3;
-  unsigned short idle_wakeup_network_enables_3;
-  unsigned short can_switch_mode;
-  STextAPISettings text_api;
-  TIMESYNC_ICSHARDWARE_SETTINGS timeSyncSettings;
-  unsigned short hwComLatencyTestEn;
-} SRADGalaxySettings;
+   unsigned short perf_en;
+   OP_ETH_GENERAL_SETTINGS opEthGen;
+   OP_ETH_SETTINGS opEth1;
+   OP_ETH_SETTINGS opEth2;
+   OP_ETH_SETTINGS opEth3;
+   OP_ETH_SETTINGS opEth4;
+   OP_ETH_SETTINGS opEth5;
+   OP_ETH_SETTINGS opEth6;
+   OP_ETH_SETTINGS opEth7;
+   OP_ETH_SETTINGS opEth8;
+   OP_ETH_SETTINGS opEth9;
+   OP_ETH_SETTINGS opEth10;
+   OP_ETH_SETTINGS opEth11;
+   OP_ETH_SETTINGS opEth12;
+   CAN_SETTINGS can1;
+   CANFD_SETTINGS canfd1;
+   CAN_SETTINGS can2;
+   CANFD_SETTINGS canfd2;
+   CAN_SETTINGS can3;
+   CANFD_SETTINGS canfd3;
+   CAN_SETTINGS can4;
+   CANFD_SETTINGS canfd4;
+   CAN_SETTINGS can5;
+   CANFD_SETTINGS canfd5;
+   CAN_SETTINGS can6;
+   CANFD_SETTINGS canfd6;
+   CAN_SETTINGS can7;
+   CANFD_SETTINGS canfd7;
+   CAN_SETTINGS can8;
+   CANFD_SETTINGS canfd8;
+   SWCAN_SETTINGS swcan1;
+   unsigned short network_enables;
+   SWCAN_SETTINGS swcan2;
+   unsigned short network_enables_2;
+   LIN_SETTINGS lin1;
+   unsigned short misc_io_initial_ddr;
+   unsigned short misc_io_initial_latch;
+   unsigned short misc_io_report_period;
+   unsigned short misc_io_on_report_events;
+   unsigned short misc_io_analog_enable;
+   unsigned short ain_sample_period;
+   unsigned short ain_threshold;
+   unsigned int pwr_man_timeout;
+   unsigned short pwr_man_enable;
+   unsigned short network_enabled_on_boot;
+   unsigned short iso15765_separation_time_offset;
+   unsigned short iso_9141_kwp_enable_reserved;
+   ISO9141_KEYWORD2000_SETTINGS iso9141_kwp_settings_1;
+   unsigned short iso_parity_1;
+   unsigned short iso_msg_termination_1;
+   unsigned short idle_wakeup_network_enables_1;
+   unsigned short idle_wakeup_network_enables_2;
+   unsigned short network_enables_3;
+   unsigned short idle_wakeup_network_enables_3;
+   unsigned short can_switch_mode;
+   STextAPISettings text_api;
+   TIMESYNC_ICSHARDWARE_SETTINGS timeSyncSettings;
+   unsigned short hwComLatencyTestEn;
+   RAD_REPORTING_SETTINGS reporting;
+   DISK_SETTINGS disk;
+   LOGGER_SETTINGS logger;
+   ETHERNET_SETTINGS2 ethernet1;
+   ETHERNET_SETTINGS2 ethernet2;
+   int16_t network_enables_4;
+   RAD_GPTP_SETTINGS gPTP;
+}SRADGalaxySettings;
 ```
 {% endtab %}
 
 {% tab title="Visual Basic .NET Declare" %}
 ```vbnet
 <StructLayout(LayoutKind.Sequential, Pack:=2)> Public Structure SRADGalaxySettings
-  Dim opEthGen As OP_ETH_GENERAL_SETTINGS
-  Dim opEth1 As OP_ETH_SETTINGS
-  Dim opEth2 As OP_ETH_SETTINGS
-  Dim opEth3 As OP_ETH_SETTINGS
-  Dim opEth4 As OP_ETH_SETTINGS
-  Dim opEth5 As OP_ETH_SETTINGS
-  Dim opEth6 As OP_ETH_SETTINGS
-  Dim opEth7 As OP_ETH_SETTINGS
-  Dim opEth8 As OP_ETH_SETTINGS
-  Dim opEth9 As OP_ETH_SETTINGS
-  Dim opEth10 As OP_ETH_SETTINGS
-  Dim opEth11 As OP_ETH_SETTINGS
-  Dim opEth12 As OP_ETH_SETTINGS
-  Dim can1 As CAN_SETTINGS
-  Dim canfd1 As CANFD_SETTINGS
-  Dim can2 As CAN_SETTINGS
-  Dim canfd2 As CANFD_SETTINGS
-  Dim can3 As CAN_SETTINGS
-  Dim canfd3 As CANFD_SETTINGS
-  Dim can4 As CAN_SETTINGS
-  Dim canfd4 As CANFD_SETTINGS
-  Dim can5 As CAN_SETTINGS
-  Dim canfd5 As CANFD_SETTINGS
-  Dim can6 As CAN_SETTINGS
-  Dim canfd6 As CANFD_SETTINGS
-  Dim can7 As CAN_SETTINGS
-  Dim canfd7 As CANFD_SETTINGS
-  Dim can8 As CAN_SETTINGS
-  Dim canfd8 As CANFD_SETTINGS
-  Dim swcan1 As SWCAN_SETTINGS
-  Dim network_enables As UInt16
-  Dim swcan2 As SWCAN_SETTINGS
-  Dim network_enables_2 As UInt16
-  Dim lin1 As LIN_SETTINGS
-  Dim misc_io_initial_ddr As UInt16
-  Dim misc_io_initial_latch As UInt16
-  Dim misc_io_report_period As UInt16
-  Dim misc_io_on_report_events As UInt16
-  Dim misc_io_analog_enable As UInt16
-  Dim ain_sample_period As UInt16
-  Dim ain_threshold As UInt16
-  Dim pwr_man_timeout As UInt32
-  Dim pwr_man_enable As UInt16
-  Dim network_enabled_on_boot As UInt16
-  Dim iso15765_separation_time_offset As UInt16
-  Dim iso_9141_kwp_enable_reserved As UInt16
-  Dim iso9141_kwp_settings_1 As ISO9141_KEYWORD2000_SETTINGS
-  Dim iso_parity_1 As UInt16
-  Dim iso_msg_termination_1 As UInt16
-  Dim idle_wakeup_network_enables_1 As UInt16
-  Dim idle_wakeup_network_enables_2 As UInt16
-  Dim network_enables_3 As UInt16
-  Dim idle_wakeup_network_enables_3 As UInt16
-  Dim can_switch_mode As UInt16
-  Dim text_api As STextAPISettings
-  Dim timeSyncSettings As TIMESYNC_ICSHARDWARE_SETTINGS
-  Dim hwComLatencyTestEn As UInt16
+   Dim perf_en As UInt16
+   Dim opEthGen As OP_ETH_GENERAL_SETTINGS
+   Dim opEth1 As OP_ETH_SETTINGS
+   Dim opEth2 As OP_ETH_SETTINGS
+   Dim opEth3 As OP_ETH_SETTINGS
+   Dim opEth4 As OP_ETH_SETTINGS
+   Dim opEth5 As OP_ETH_SETTINGS
+   Dim opEth6 As OP_ETH_SETTINGS
+   Dim opEth7 As OP_ETH_SETTINGS
+   Dim opEth8 As OP_ETH_SETTINGS
+   Dim opEth9 As OP_ETH_SETTINGS
+   Dim opEth10 As OP_ETH_SETTINGS
+   Dim opEth11 As OP_ETH_SETTINGS
+   Dim opEth12 As OP_ETH_SETTINGS
+   Dim can1 As CAN_SETTINGS
+   Dim canfd1 As CANFD_SETTINGS
+   Dim can2 As CAN_SETTINGS
+   Dim canfd2 As CANFD_SETTINGS
+   Dim can3 As CAN_SETTINGS
+   Dim canfd3 As CANFD_SETTINGS
+   Dim can4 As CAN_SETTINGS
+   Dim canfd4 As CANFD_SETTINGS
+   Dim can5 As CAN_SETTINGS
+   Dim canfd5 As CANFD_SETTINGS
+   Dim can6 As CAN_SETTINGS
+   Dim canfd6 As CANFD_SETTINGS
+   Dim can7 As CAN_SETTINGS
+   Dim canfd7 As CANFD_SETTINGS
+   Dim can8 As CAN_SETTINGS
+   Dim canfd8 As CANFD_SETTINGS
+   Dim swcan1 As SWCAN_SETTINGS
+   Dim network_enables As UInt16
+   Dim swcan2 As SWCAN_SETTINGS
+   Dim network_enables_2 As UInt16
+   Dim lin1 As LIN_SETTINGS
+   Dim misc_io_initial_ddr As UInt16
+   Dim misc_io_initial_latch As UInt16
+   Dim misc_io_report_period As UInt16
+   Dim misc_io_on_report_events As UInt16
+   Dim misc_io_analog_enable As UInt16
+   Dim ain_sample_period As UInt16
+   Dim ain_threshold As UInt16
+   Dim pwr_man_timeout As UInt32
+   Dim pwr_man_enable As UInt16
+   Dim network_enabled_on_boot As UInt16
+   Dim iso15765_separation_time_offset As UInt16
+   Dim iso_9141_kwp_enable_reserved As UInt16
+   Dim iso9141_kwp_settings_1 As ISO9141_KEYWORD2000_SETTINGS
+   Dim iso_parity_1 As UInt16
+   Dim iso_msg_termination_1 As UInt16
+   Dim idle_wakeup_network_enables_1 As UInt16
+   Dim idle_wakeup_network_enables_2 As UInt16
+   Dim network_enables_3 As UInt16
+   Dim idle_wakeup_network_enables_3 As UInt16
+   Dim can_switch_mode As UInt16
+   Dim text_api As STextAPISettings
+   Dim timeSyncSettings As TIMESYNC_ICSHARDWARE_SETTINGS
+   Dim hwComLatencyTestEn As UInt16
+   Dim reporting As RAD_REPORTING_SETTINGS
+   Dim disk As DISK_SETTINGS
+   Dim logger As LOGGER_SETTINGS
+   Dim ethernet1 As ETHERNET_SETTINGS2
+   Dim ethernet2 As ETHERNET_SETTINGS2
+   Dim network_enables_4 As Int16
+   Dim gPTP As RAD_GPTP_SETTINGS
 End Structure
 ```
 {% endtab %}
@@ -137,63 +153,71 @@ End Structure
 [StructLayout(LayoutKind.Sequential,Pack=2)]
 public struct SRADGalaxySettings
 {
-  public OP_ETH_GENERAL_SETTINGS opEthGen;
-  public OP_ETH_SETTINGS opEth1;
-  public OP_ETH_SETTINGS opEth2;
-  public OP_ETH_SETTINGS opEth3;
-  public OP_ETH_SETTINGS opEth4;
-  public OP_ETH_SETTINGS opEth5;
-  public OP_ETH_SETTINGS opEth6;
-  public OP_ETH_SETTINGS opEth7;
-  public OP_ETH_SETTINGS opEth8;
-  public OP_ETH_SETTINGS opEth9;
-  public OP_ETH_SETTINGS opEth10;
-  public OP_ETH_SETTINGS opEth11;
-  public OP_ETH_SETTINGS opEth12;
-  public CAN_SETTINGS can1;
-  public CANFD_SETTINGS canfd1;
-  public CAN_SETTINGS can2;
-  public CANFD_SETTINGS canfd2;
-  public CAN_SETTINGS can3;
-  public CANFD_SETTINGS canfd3;
-  public CAN_SETTINGS can4;
-  public CANFD_SETTINGS canfd4;
-  public CAN_SETTINGS can5;
-  public CANFD_SETTINGS canfd5;
-  public CAN_SETTINGS can6;
-  public CANFD_SETTINGS canfd6;
-  public CAN_SETTINGS can7;
-  public CANFD_SETTINGS canfd7;
-  public CAN_SETTINGS can8;
-  public CANFD_SETTINGS canfd8;
-  public SWCAN_SETTINGS swcan1;
-  public UInt16 network_enables;
-  public SWCAN_SETTINGS swcan2;
-  public UInt16 network_enables_2;
-  public LIN_SETTINGS lin1;
-  public UInt16 misc_io_initial_ddr;
-  public UInt16 misc_io_initial_latch;
-  public UInt16 misc_io_report_period;
-  public UInt16 misc_io_on_report_events;
-  public UInt16 misc_io_analog_enable;
-  public UInt16 ain_sample_period;
-  public UInt16 ain_threshold;
-  public UInt32 pwr_man_timeout;
-  public UInt16 pwr_man_enable;;
-  public UInt16 network_enabled_on_boot;
-  public UInt16 iso15765_separation_time_offset;
-  public UInt16 iso_9141_kwp_enable_reserved;
-  public ISO9141_KEYWORD2000_SETTINGS iso9141_kwp_settings_1;
-  public UInt16 iso_parity_1;
-  public UInt16 iso_msg_termination_1;
-  public UInt16 idle_wakeup_network_enables_1;
-  public UInt16 idle_wakeup_network_enables_2;
-  public UInt16 network_enables_3;
-  public UInt16 idle_wakeup_network_enables_3;
-  public UInt16 can_switch_mode;
-  public STextAPISettings text_api;
-  public TIMESYNC_ICSHARDWARE_SETTINGS timeSyncSettings;
-  public UInt16 hwComLatencyTestEn;
+   public UInt16 perf_en;
+   public OP_ETH_GENERAL_SETTINGS opEthGen;
+   public OP_ETH_SETTINGS opEth1;
+   public OP_ETH_SETTINGS opEth2;
+   public OP_ETH_SETTINGS opEth3;
+   public OP_ETH_SETTINGS opEth4;
+   public OP_ETH_SETTINGS opEth5;
+   public OP_ETH_SETTINGS opEth6;
+   public OP_ETH_SETTINGS opEth7;
+   public OP_ETH_SETTINGS opEth8;
+   public OP_ETH_SETTINGS opEth9;
+   public OP_ETH_SETTINGS opEth10;
+   public OP_ETH_SETTINGS opEth11;
+   public OP_ETH_SETTINGS opEth12;
+   public CAN_SETTINGS can1;
+   public CANFD_SETTINGS canfd1;
+   public CAN_SETTINGS can2;
+   public CANFD_SETTINGS canfd2;
+   public CAN_SETTINGS can3;
+   public CANFD_SETTINGS canfd3;
+   public CAN_SETTINGS can4;
+   public CANFD_SETTINGS canfd4;
+   public CAN_SETTINGS can5;
+   public CANFD_SETTINGS canfd5;
+   public CAN_SETTINGS can6;
+   public CANFD_SETTINGS canfd6;
+   public CAN_SETTINGS can7;
+   public CANFD_SETTINGS canfd7;
+   public CAN_SETTINGS can8;
+   public CANFD_SETTINGS canfd8;
+   public SWCAN_SETTINGS swcan1;
+   public UInt16 network_enables;
+   public SWCAN_SETTINGS swcan2;
+   public UInt16 network_enables_2;
+   public LIN_SETTINGS lin1;
+   public UInt16 misc_io_initial_ddr;
+   public UInt16 misc_io_initial_latch;
+   public UInt16 misc_io_report_period;
+   public UInt16 misc_io_on_report_events;
+   public UInt16 misc_io_analog_enable;
+   public UInt16 ain_sample_period;
+   public UInt16 ain_threshold;
+   public UInt32 pwr_man_timeout;
+   public UInt16 pwr_man_enable;
+   public UInt16 network_enabled_on_boot;
+   public UInt16 iso15765_separation_time_offset;
+   public UInt16 iso_9141_kwp_enable_reserved;
+   public ISO9141_KEYWORD2000_SETTINGS iso9141_kwp_settings_1;
+   public UInt16 iso_parity_1;
+   public UInt16 iso_msg_termination_1;
+   public UInt16 idle_wakeup_network_enables_1;
+   public UInt16 idle_wakeup_network_enables_2;
+   public UInt16 network_enables_3;
+   public UInt16 idle_wakeup_network_enables_3;
+   public UInt16 can_switch_mode;
+   public STextAPISettings text_api;
+   public TIMESYNC_ICSHARDWARE_SETTINGS timeSyncSettings;
+   public UInt16 hwComLatencyTestEn;
+   public RAD_REPORTING_SETTINGS reporting;
+   public DISK_SETTINGS disk;
+   public LOGGER_SETTINGS logger;
+   public ETHERNET_SETTINGS2 ethernet1;
+   public ETHERNET_SETTINGS2 ethernet2;
+   public Int16 network_enables_4;
+   public RAD_GPTP_SETTINGS gPTP;
 }
 ```
 {% endtab %}
@@ -203,6 +227,7 @@ public struct SRADGalaxySettings
 
 | Item                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| perf\_en                           | Performance test. Default value = 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | opEthGen                           | See [OP\_ETH\_GENERAL\_SETTINGS](sub-setting-structures-overview-intrepidcs-api/op\_eth\_general\_settings-structure.md) structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | opEth1                             | See [OP\_ETH\_SETTINGS](sub-setting-structures-overview-intrepidcs-api/op\_eth\_settings-structure.md) structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | opEth2                             | See [OP\_ETH\_SETTINGS](sub-setting-structures-overview-intrepidcs-api/op\_eth\_settings-structure.md) structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -260,3 +285,10 @@ public struct SRADGalaxySettings
 | text\_api                          | See [STextAPISettings](sub-setting-structures-overview-intrepidcs-api/stextapisettings-structure.md) structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | timeSyncSettings                   | See TIMESYNC\_ICSHARDWARE\_SETTINGS structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | hwComLatencyTestEn                 | Not Available                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| reporting                          | See RAD\_REPORTING\_SETTINGS structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| disk                               | See DISK\_SETTINGS structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| logger                             | See LOGGER\_SETTINGS structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ethernet1                          | See ETHERNET\_SETTINGS2 structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ethernet2                          | See ETHERNET\_SETTINGS2 structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| network\_enables\_4                | Not Available                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| gPTP                               | See RAD\_GPTP\_SETTINGS structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
