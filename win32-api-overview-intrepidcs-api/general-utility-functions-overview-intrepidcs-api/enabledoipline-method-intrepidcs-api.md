@@ -26,36 +26,63 @@ Public Declare Function icsneoEnableDOIPLine Lib “icsneo40.dll” (ByVal hObje
 
 hObject
 
-\[in] Handle \[in] Which specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md)
+\[in] Specifies the driver object created by [OpenNeoDevice](../basic-functions-overview-intrepidcs-api/openneodevice-method-intrepidcs-api.md)
 
-bActivate \[in] Sets the state of the Ethernet Activation line.
+bActivate
+
+\[in] Specifies the state of the Activation line. True enables the activation and False disabled it.
 
 **Return Values**
 
-This function returns the 1 when successful. 0 if otherwise.
+1 if the function succeeded. 0 if it failed for any reason. [GetLastAPIErro](../error-functions-overview-intrepidcs-api/getlastapierror-method-intrepidcs-api.md)r must be called to obtain the specific error.
 
 **Remarks**
 
-This function will enable and disable Ethernet Activation line for DoIP applications on applicable hardware devices.
+The specified hardware must support a DoIP activation line
 
 ### Examples
 
 {% tabs %}
 {% tab title="C/C++ Example" %}
 ```cpp
-icsneoEnableDOIPLine(m_hObject,true);
+int iRetVal;
+bool bState;
+
+bState = true;
+iRetVal = icsneoEnableDOIPLine(hObject,bState);
+if(iRetVal == 0)
+{
+    printf("\nFailed to set DoIP Act");
+}
+else
+{
+    printf("\nSuccessfully set DoIP Act");
+}
+
 ```
 {% endtab %}
 
 {% tab title="Visual Basic .NET Example" %}
 ```vbnet
-Call icsneoEnableDOIPLine (m_hObject, true)
+int iResult;
+bool bState;
+
+//Set the bit rate
+iResult = icsNeoDll.icsneoEnableDOIPLine(m_hObject,bState);
+if (iResult == 0)
+{
+    MessageBox.Show("Problem setting DoIP Act");
+}
 ```
 {% endtab %}
 
 {% tab title="C# Example" %}
 ```csharp
-icsNeoDll.icsneoEnableDOIPLine(m_hObject,true);
+Dim iResult As Integer
+Dim bState As Boolean
+'//Set the bit rate
+iResult = icsneoEnableDOIPLine(m_hObject,bState)
+If (iResult = 0) Then MsgBox("Problem setting DoIP Act")
 ```
 {% endtab %}
 {% endtabs %}

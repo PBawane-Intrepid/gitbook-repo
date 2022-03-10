@@ -44,17 +44,32 @@ NEOVI\_ERROR\_DLL\_NEOVI\_NO\_RESPONSE = 75
 
 {% tabs %}
 {% tab title="C/C++ Example:" %}
-```
+```cpp
+long lResult;
+icsSpyTime icsTime;
+
+//Call for RTC
+lResult = icsneoGetRTC(m_hObject, &icsTime);
 ```
 {% endtab %}
 
 {% tab title="C# Example:" %}
-```
+```csharp
+long lResult;
+icsSpyTime icsTime;
+
+//Call for RTC
+lResult = icsNeoDll.icsneoGetRTC(m_hObject,ref icsTime);
 ```
 {% endtab %}
 
 {% tab title="Visual Basic .NET Example:" %}
-```
+```vbnet
+Dim lResult As Int32
+Dim icsTime As New icsSpyTime
+
+'//Call for RTC
+lResult = icsneoGetRTC(m_hObject, icsTime)
 ```
 {% endtab %}
 {% endtabs %}

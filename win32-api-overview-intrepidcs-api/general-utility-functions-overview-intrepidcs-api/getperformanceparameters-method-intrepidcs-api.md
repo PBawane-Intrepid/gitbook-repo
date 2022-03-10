@@ -89,7 +89,14 @@ End If
 
 {% tab title="C# Example" %}
 ```csharp
-icsneoGetPerformanceParameters(m_hObject, &iBufferCount, &iBufferMax, &iOverFlowCount, &iReserved1, &iReserved2, &iReserved3, &iReserved4, &iReserved5);
+lResult = icsNeoDll.icsneoGetPerformanceParameters(m_hObject, ref iBufferCount, ref iBufferMax, ref iOverFlowCount, ref iReserved1, ref iReserved2, ref iReserved3, ref iReserved4, ref iReserved5);
+
+if(lResult=1)
+{
+    txtBufferCount.Text = Convert.ToString(iBufferCount);
+    txtBufferMax.Text = Convert.ToString(iBufferMax);
+    txtOverflowCount.Text = Convert.ToString(iOverFlowCount);
+}
 ```
 {% endtab %}
 {% endtabs %}

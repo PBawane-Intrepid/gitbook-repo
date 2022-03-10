@@ -28,9 +28,8 @@ hObject
 
 \[in] Handle which specifies the driver object created with the OpenPort method.
 
-ulNetwork
-
-\[in] Specifies the network to transmit the message on. See [NetworkID List](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md) for a list of valid Network ID values. Network support varies by neoVI device. NETID\_DEVICE transmits on to the neoVI Device Virtual Network (see users manual).
+_ulIndex_\
+&#x20;   \[in] Specifies the Index to configure, 10 elements 0-9.
 
 stCM\_ISO157652\_RxMessage
 

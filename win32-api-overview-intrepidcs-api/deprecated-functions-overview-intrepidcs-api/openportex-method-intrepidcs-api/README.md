@@ -52,7 +52,7 @@ bConfigRead
 
 bNetworkIDs
 
-\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. The network IDs are specified in the following list: NETID\_DEVICE = 0, NETID\_HSCAN = 1, NETID\_MSCAN = 2, NETID\_SWCAN = 3, NETID\_LSFTCAN = 4, NETID\_FORDSCP = 5, NETID\_J1708 = 6, NETID\_AUX = 7, NETID\_JVPW = 8, NETID\_ISO = 9. _You may also set this parameter to NULL (zero) and the default network ID’s will be used._
+\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. The network IDs are specified in the following list: NETID\_DEVICE = 0, NETID\_HSCAN = 1, NETID\_MSCAN = 2, NETID\_SWCAN = 3, NETID\_LSFTCAN = 4, NETID\_FORDSCP = 5, NETID\_J1708 = 6, NETID\_AUX = 7, NETID\_JVPW = 8, NETID\_ISO = 9. _**You may also set this parameter to NULL (zero) and the default network ID’s will be used.**_
 
 The neoVI DLL will use this array when it receives a network message. For example, when the DLL receives a message from HSCAN network it will set the NetworkID parameter of the [message structure](../../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/message-structures-neovi-api.md) with the value bNetworkID(NETID\_HSCAN).
 

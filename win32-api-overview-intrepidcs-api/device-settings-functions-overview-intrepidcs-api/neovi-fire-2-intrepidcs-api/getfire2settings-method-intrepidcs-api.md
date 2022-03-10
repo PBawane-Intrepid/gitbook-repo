@@ -50,7 +50,7 @@ After getting the current settings, you may change the parameters defined in the
 
 {% tabs %}
 {% tab title="C/C++ Example" %}
-```
+```cpp
 SFIRE2Settings Fire2ReadSettings;
 int iNumberOfBytes;
 int iResult;

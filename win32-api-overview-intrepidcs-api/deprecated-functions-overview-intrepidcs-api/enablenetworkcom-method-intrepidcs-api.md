@@ -1,8 +1,8 @@
 # EnableNetworkCom Method - intrepidcs API
 
-This function is deprecated. Use the EnableNetworkRXQueue method instead.
+**This function is deprecated. Use the EnableNetworkRXQueue method instead.**
 
-This method enables or disables all vehicle network rx data.
+**This method enables or disables all vehicle network rx data.**
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}

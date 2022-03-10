@@ -1,5 +1,6 @@
 ---
 coverY: 0
+cover: ../../../.gitbook/assets/new-cover-image.png
 ---
 
 # Setting Structures Overview - intrepidcs API
