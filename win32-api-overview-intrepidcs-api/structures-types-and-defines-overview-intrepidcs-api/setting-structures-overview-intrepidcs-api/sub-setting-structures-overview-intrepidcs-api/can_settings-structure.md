@@ -4,7 +4,7 @@ This structure defines settings for CAN networks on neoVI and ValueCAN devices.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
-```
+```cpp
 struct __declspec (align(2))
 {
 uint8_t Mode;
@@ -23,7 +23,7 @@ uint8_t innerFrameDelay25us;
 {% endtab %}
 
 {% tab title="Visual Basic .NET Declare" %}
-```
+```vbnet
 <StructLayout(LayoutKind.Sequential, Pack:=2)> Public Structure CAN_SETTINGS
     Dim Mode As Byte
     Dim SetBaudrate As Byte
@@ -41,7 +41,7 @@ End Structure
 {% endtab %}
 
 {% tab title="C# .NET Declare" %}
-```
+```csharp
 [StructLayout(LayoutKind.Sequential,Pack=2)]
 public struct CAN_SETTINGS
 {

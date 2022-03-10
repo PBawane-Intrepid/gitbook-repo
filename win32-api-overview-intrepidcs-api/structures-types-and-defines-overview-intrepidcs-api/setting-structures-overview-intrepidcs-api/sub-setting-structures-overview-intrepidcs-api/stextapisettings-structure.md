@@ -9,7 +9,7 @@ This structure defines settings for Text API communication for neoVI Fire device
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
-```
+```cpp
 typedef struct _STextAPISettings
 {
     unsigned int can1_tx_id;
@@ -35,7 +35,7 @@ typedef struct _STextAPISettings
 {% endtab %}
 
 {% tab title="Visual Basic .NET Declares" %}
-```
+```vbnet
 <StructLayout(LayoutKind.Sequential, Pack:=2)> Public Structure STextAPISettings
     Dim can1_tx_id As UInt32
     Dim can1_rx_id As UInt32
@@ -60,7 +60,7 @@ End Structure
 {% endtab %}
 
 {% tab title="C# Declares" %}
-```
+```csharp
 [StructLayout(LayoutKind.Sequential,Pack=2)]
 public struct STextAPISettings
 {
